@@ -1,0 +1,50 @@
+#logo{
+    font-size: 0;
+    width: 30%;
+    height: 6%;
+    background:  no-repeat url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1024px-Google_2015_logo.svg.png");
+    text-align: center;
+    margin: auto;
+    border: solid teal 1px;
+}
+
+#container{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    border: blueviolet 3px solid;
+    clear: both;
+}
+
+input[type="text"]{
+    width: 80%;
+    font-size: 16px;
+    padding: .2em;
+    margin-top: .3em;
+    margin-bottom: .3em;
+}
+
+input[type="text"]:focus{
+    color:  #aaa;
+}
+
+input[type="submit"]{
+    border: solid 1px #ccc;
+    padding: .2em;
+    float: inherit;
+}
+
+small{
+    display: block;
+}
+
+a:link, a:visited{
+    color: dodgerblue;
+}
+
+#header li{
+    border: lawngreen 2px solid;
+    display: inline;
+    float: right;
+
+}
