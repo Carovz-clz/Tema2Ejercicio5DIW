@@ -1,27 +1,26 @@
 #logo{
-    font-size: 0;
-    width: 30%;
-    height: 6%;
-    background:  no-repeat url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1024px-Google_2015_logo.svg.png");
-    text-align: center;
+    font-size: 0;    
+    content:  url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1024px-Google_2015_logo.svg.png");
+    max-width: 50%;
     margin: auto;
-    border: solid teal 1px;
 }
 
 #container{
     width: 30%;
     margin: auto;
     text-align: center;
-    border: blueviolet 3px solid;
+    padding-top: 20em;
     clear: both;
 }
 
 input[type="text"]{
     width: 80%;
+    display: block;
+    margin: auto;
     font-size: 16px;
     padding: .2em;
-    margin-top: .3em;
-    margin-bottom: .3em;
+    margin-top: .5em;
+    margin-bottom: .5em;
 }
 
 input[type="text"]:focus{
@@ -31,6 +30,7 @@ input[type="text"]:focus{
 input[type="submit"]{
     border: solid 1px #ccc;
     padding: .2em;
+    margin-top: 1em;
     float: inherit;
 }
 
@@ -43,8 +43,55 @@ a:link, a:visited{
 }
 
 #header li{
-    border: lawngreen 2px solid;
     display: inline;
     float: right;
 
 }
+
+#header ul li a{
+    color: #555;
+    text-decoration: none;
+    padding: 10px; 
+} 
+
+.clearfix li{ 
+    display: inline;
+}
+
+.clearfix ul li a{
+    color: #555;
+    text-decoration: none;
+    padding: 10px; 
+}
+
+
+footer nav ul{
+    float: left;
+}
+
+footer nav ul.right-links{
+    
+    float: right;
+    text-align: right;
+}
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.clearfix a:hover, #header a:hover{
+    text-decoration: underline;
+}
+
+.clearfix:after{    
+    margin-bottom: 3em;
+}
+
+
+
+
+
